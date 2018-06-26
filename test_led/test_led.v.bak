@@ -1,0 +1,8 @@
+module test_led(clk,led);
+
+always@(posedge clk)
+begin
+   led <= 1'b0;
+end
+
+endmodule 
